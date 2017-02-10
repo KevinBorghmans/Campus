@@ -6,7 +6,8 @@
 	background-image: url(../img/cele_landingpage.png);
 	overflow: hidden;
 	background-size: cover;
-	/*background-position: center; */
+	background-position: center center;
+    background-repeat: no-repeat;
     background-position-y: -149px;
 }
 
@@ -482,7 +483,55 @@ h5 {
 footer {
     width: 100%;
     background-image: url(../img/footer.jpg);
-    height: 600px;
+    height: auto;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.footerBox {
+    width: 280px;
+    height: auto;
+    float: left;
+    margin-right: 180px;
+}
+
+#middleBox {
+    text-align: center !important;
+    margin-top: -30px;
+}
+
+#lastBox {
+    margin-right: 0px !important;
+}
+
+.footerBox h3 {
+    font-family: "Playfair Display";
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footerBox p {
+	font-family: futura-pt, sans-serif;
+	line-height: 20px;
+	color: #737373;
+}
+
+.footerBox a {
+	font-family: futura-pt, sans-serif;
+	line-height: 20px;
+	color: #737373;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.smallLogo {
+    width: 120px;
+    height: auto;
 }
 
 /* Overlay style */
@@ -498,8 +547,8 @@ footer {
 
 /* Overlay closing cross */
 .overlay .overlay-close {
-    width: 80px;
-    height: 80px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     right: 148px;
     top: 50px;
