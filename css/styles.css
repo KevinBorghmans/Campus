@@ -11,6 +11,17 @@
     background-position-y: -149px;
 }
 
+.landingspage_next {
+	width: 100%;
+	height: 106vh;
+	background-image: url(../gif/roy.gif);
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-position-y: -149px;
+}
+
 .textcontainer {
 	position: relative;
 	z-index: 1;
