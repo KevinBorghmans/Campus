@@ -13,6 +13,7 @@ try{Typekit.load({ async: true });}catch(e){}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="icon" type="image/png" href="img/favicon_Black.png" />
+     <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,10 @@ try{Typekit.load({ async: true });}catch(e){}
                 </div>
 
                 <div class="menu">
-                    <h4 class="menu size">MENU</h4>
+                <a href="#" id="trigger-overlay">
+                	<h4 class="menu size">MENU</h4>
+                </a>
+                    
                 </div>
             </nav>
 
@@ -73,13 +77,65 @@ marketing at place number 1. Lets us help you crafting to gold!</p>
             </div>
 
              <div class="about-text">
-                <p class="textwidht" style="margin-top: -230px; margin-left: 114px;">At Campus we believe every company, agency, association, school, 
-bakery, sports club - no matter what you are - should gofor gold. You’re 
-never done growing, and silver isn’t enough. Working together with 
-Campus means we will do anything to get your branding and online 
-marketing at place number 1. Lets us help you crafting to gold!</p>
+                <p class="textwidht" style="margin-top: -230px; margin-left: 114px;">Campus is a creative agency made by 3 motivated media 
+students to bring their design life to the next level. Together 
+they create a new community to learn more about design 
+and development by working for real clients. Like we said, </p>
             </div>
+             <div class="about-text">
+                <p class="textwidht" style="margin-top: -285px; margin-right: 106px; float: right;">a community! Not only work together, but also living 
+together as a family is were we stand for. The logo should 
+radiate the solidarity between the colleagues that will 
+provide their awesome work at college grounds. </p>
+            </div>
+            <div class="container-title">
+                 <h3 class="playfair">Find the perfect font<br>
+for your project</h3>
+            	<h5 class="vertical-text-fontshop">- FONTSHOP</h5>
+
+            </div>
+            <div class="fontshop-images">
+            	<img src="img/campus-shoes.jpg" style="position: absolute;
+    margin-top: -179px;
+    margin-left: 141px;" alt="">
+            	<img src="img/fontshop.jpg" width="1413px" alt="">
+            </div>
+
+            <div class="project-text">
+                <p class="textwidht" style="width: 299px;">The fontshop recommendation tool helps designers 
+                to find the perfect font for their projects. Where do you want to use the font?
+                On a great website? A poster? Your business cards? If you need help, this is 
+                the tool for you!</p>
+            </div>
+
+            <div class="container-title2">
+                 <h3 class="playfair2">Go for gold.<br>
+Silver isn’t enough</h3>
+            	<h5 class="vertical-text-fontshop2">- FOLLOW US ON INSTRAGRAM</h5>
+            </div>
+
+            	<img class="instagram-grid" src="img/instagram-grid.png"alt="">
         </div>
+
     </section>
+    <footer>
+    	
+    </footer>
+
+    		<!-- open/close -->
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/demo1.js"></script>
 </body>
 </html>
